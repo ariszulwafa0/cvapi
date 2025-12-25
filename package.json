@@ -1,12 +1,16 @@
 {
   "name": "cv-generator-api",
   "version": "1.0.0",
+  "description": "API Render PDF menggunakan Puppeteer untuk Vercel",
   "main": "api/generate.js",
-  "dependencies": {
-    "@sparticuz/chromium": "^123.0.0",
-    "puppeteer-core": "^22.6.0"
-  },
   "scripts": {
     "start": "node api/generate.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "123.0.1",
+    "puppeteer-core": "22.6.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
